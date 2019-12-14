@@ -12,12 +12,13 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2"
   },
+  "homepage": "http://ericpzh.github.io/me" ,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
