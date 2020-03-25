@@ -11,10 +11,6 @@ function Menu_() {
         <span> <Icon name='home' /> </span>
         <span> Home </span>
       </a>
-      <a className='menu-item' href="/me/projects">
-        <span> <Icon name='terminal' /> </span>
-        <span> Projects </span>
-      </a>
       <a className='menu-item' href='https://github.com/ericpzh'>
         <span> <Icon name='github' /> </span>
         <span> Github </span>

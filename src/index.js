@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route} from "react-router-dom";
 import './index.css';
 import App from './App';
-import Projects from './projects';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render((
     <Router>
       <div>
         <Route exact path="/me" component={App}/>
-        <Route exact path="/me/projects" component={Projects}/>
       </div>
     </Router>
     ),
