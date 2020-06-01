@@ -48,8 +48,14 @@ function App() {
             <p>
             Bachelor of Science in Industrial Engineering & Minor in Computer Science , GPA:3.88/4.0
             </p>
-            <b>           Coursework           </b>
 
+            <b>           Research           </b>
+            <List as='ul'>
+              <List.Item as='li'> Time series analysis using machine learning method. Applying ARIMA, LSTM, GRU on US presidential polls data.</List.Item>
+              <List.Item as='li'> Life cycle impacts asscessment on agricultural / autonomous systems. </List.Item>
+            </List>
+
+            <b>           Coursework           </b>
             <p>
             <List horizontal>
               <List.Item> <a href='https://courses.illinois.edu/schedule/2019/fall/IE/529'> Stats of Big Data & Clustering </a> </List.Item>
@@ -62,6 +68,7 @@ function App() {
               <List.Item> <a href='https://courses.illinois.edu/schedule/2020/spring/CS/412'> Introduction to Data Mining </a> </List.Item>
             </List>
             </p>
+
             <b> Skills </b>
             <p>
             <List horizontal>
@@ -86,7 +93,7 @@ function App() {
               <Icon name='suitcase' />
               <Header.Content>Experience</Header.Content>
             </Header>
-            <b> <a href='https://www.citadel.com/'> Reference Data Operations Interns, Citadel </a>, 2019 </b>
+            <b> <a href='https://www.citadel.com/'> Reference Data Operations Internship, Citadel </a>, 2020 </b>
             <List as='ul'>
                <List.Item as='li'>Design and implement automatic verifier for Citadel's reference database.</List.Item>
             </List>
