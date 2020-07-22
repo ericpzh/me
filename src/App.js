@@ -51,8 +51,11 @@ function App() {
 
             <b>           Research           </b>
             <List as='ul'>
-              <List.Item as='li'> Time series analysis using machine learning method. Applying ARIMA, LSTM, GRU on US presidential polls data.</List.Item>
-              <List.Item as='li'> Life cycle impacts asscessment on agricultural / autonomous systems. </List.Item>
+              <List.Item as='li'> Time Series Trend Prediction with Machine Learning. </List.Item>
+              <List.Item as='li'> Predict the 2020 US election betting odds time series using various of prediction model including Exponential
+              Smoothing, AutoRegressive Integrated Moving Average (ARIMA) model, Recurrent Neural Networks (RNN) such as
+              Long Short Term Memory (LSTM) and Gated Recurrent Unit (GRU).
+              </List.Item>
             </List>
 
             <b>           Coursework           </b>
@@ -73,13 +76,13 @@ function App() {
             <p>
             <List horizontal>
               <List.Item> Python </List.Item>
-              <List.Item> Pandas </List.Item>
-              <List.Item> VBA </List.Item>
-              <List.Item> JavaScript </List.Item>
-              <List.Item> MongoDB </List.Item>
-              <List.Item> MySQL </List.Item>
               <List.Item> HTML&CSS </List.Item>
+              <List.Item> JavaScript </List.Item>
+              <List.Item> Pandas </List.Item>
               <List.Item> React </List.Item>
+              <List.Item> VBA </List.Item>
+              <List.Item> MongoDB </List.Item>
+              <List.Item> SQL </List.Item>
             </List>
             </p>
             <h2/>
@@ -93,9 +96,13 @@ function App() {
               <Icon name='suitcase' />
               <Header.Content>Experience</Header.Content>
             </Header>
-            <b> <a href='https://www.citadel.com/'> Reference Data Operations Internship, Citadel </a>, 2020 </b>
+            <b> <a href='https://www.citadel.com/'> Reference Data Internship, Citadel </a>, 2020 </b>
             <List as='ul'>
-               <List.Item as='li'>Design and implement automatic verifier for Citadel's reference database.</List.Item>
+               <List.Item as='li'>Developed a pdf parser that extract information from convertible bond final term sheets using various of technique including regular expression pattern matching and different classifiers such as Support Vector Machine (SVM) & Neural Networks (Multi-layer Perceptron model and RNN models). Achieved an overall accuracy of 80% ~ 90% depending on attributes of interest. Training data were preprocessed using Word2vec model that turn English words into vectors and tagged using historic data from the reference database. </List.Item>
+               <List.Item as='li'>Initiate development of an internal self-service web portal handling requests for the reference database using React / Django /
+                SQL Stack. Laid out overall structures for frontend and develop frontend portion of request handling, data health dashboard
+                as well as full stack on the pdf parser.
+               </List.Item>
             </List>
             <b> <a href='http://esol.ise.illinois.edu'> Research Assistant at Enterprise Systems Optimization Lab, UIUC | John Deere </a> , 2018 - 2021 </b>
             <List as='ul'>
