@@ -52,9 +52,10 @@ function App() {
             <b>           Research           </b>
             <List as='ul'>
               <List.Item as='li'> Time Series Trend Prediction with Machine Learning. </List.Item>
-              <List.Item as='li'> Predict the 2020 US election betting odds time series using various of prediction model including Exponential
-              Smoothing, AutoRegressive Integrated Moving Average (ARIMA) model, Recurrent Neural Networks (RNN) such as
-              Long Short Term Memory (LSTM) and Gated Recurrent Unit (GRU).
+              <List.Item as='li'> Predict the 2020 US election betting odds, SNP500 time series data using various of time series prediction model including
+              Exponential Smoothing, Auto-Regressive Integrated Moving Average (ARIMA) model, Recurrent Neural Networks (RNN)
+              such as Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU) and CEEMDAN.
+
               </List.Item>
             </List>
 
@@ -104,7 +105,7 @@ function App() {
                 as well as full stack on the pdf parser.
                </List.Item>
             </List>
-            <b> <a href='http://esol.ise.illinois.edu'> Research Assistant at Enterprise Systems Optimization Lab, UIUC | John Deere </a> , 2018 - 2021 </b>
+            <b> <a href='http://esol.ise.illinois.edu'> Research Assistant at Enterprise Systems Optimization Lab, UIUC | John Deere </a> , 2018 - 2020 </b>
             <List as='ul'>
               <List.Item as='li'>Developed and improved an Excel-based program for life-cycle assessment (LCA) and life-cycle costing (LCC) analysis of non-road construction and agricultural machines for John Deere to make better decisions at marketing and manufacturing.</List.Item>
               <List.Item as='li'>The program estimates life cycle environmental impacts based on common matrices such as GWP100a and ReCiPe 2008 and estimates the total cost of ownership of a product. A design engineering can make sensitivity analysis to compare between different design alternatives.</List.Item>
