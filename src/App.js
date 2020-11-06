@@ -51,7 +51,7 @@ function App() {
 
             <b>           Research           </b>
             <List as='ul'>
-              <List.Item as='li'> Time Series Trend Prediction with Machine Learning. </List.Item>
+              <List.Item as='li'>  <a href='https://predictrend-6a51c.web.app/'> Time Series Trend Prediction with Machine Learning. </a> </List.Item>
               <List.Item as='li'> Predict the 2020 US election betting odds, SNP500 time series data using various of time series prediction model including
               Exponential Smoothing, Auto-Regressive Integrated Moving Average (ARIMA) model, Recurrent Neural Networks (RNN)
               such as Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU) and CEEMDAN.
