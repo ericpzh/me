@@ -52,12 +52,17 @@ function App() {
             <b>           Research           </b>
             <List as='ul'>
               <List.Item as='li'>  <a href='https://predictrend-6a51c.web.app/'> Time Series Trend Prediction with Machine Learning. </a> </List.Item>
-              <List.Item as='li'> Predict the 2020 US election betting odds, SNP500 time series data using various of time series prediction model including
+              <List.Item value='-'> Predict the 2020 US election betting odds, SNP500 time series data using various of time series prediction model including
               Exponential Smoothing, Auto-Regressive Integrated Moving Average (ARIMA) model, Recurrent Neural Networks (RNN)
               such as Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU) and CEEMDAN.
 
               </List.Item>
+
+              <List.Item as='li'>  <a href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2020/83952/V006T06A030/1089947"> Switching From Petroleum- to Bio-Based Plastics: Visualization Tools to Screen Sustainable Material Alternatives During the Design Process </a> </List.Item>
+              <List.Item value='-'> Co-author as research assistant in data analysis and web developing. </List.Item>
             </List>
+
+
 
             <b>           Coursework           </b>
             <p>
