@@ -58,8 +58,12 @@ function App() {
 
               </List.Item>
 
+              <List.Item as='li'>  <a href="http://esol.ise.illinois.edu/publications.html"> Lifecycle environmental and economic performance of autonomous lawn mowers in comparison with human-operated systems </a> </List.Item>
+              <List.Item value='-'> Co-author as research assistant. </List.Item>
+
               <List.Item as='li'>  <a href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2020/83952/V006T06A030/1089947"> Switching From Petroleum- to Bio-Based Plastics: Visualization Tools to Screen Sustainable Material Alternatives During the Design Process </a> </List.Item>
               <List.Item value='-'> Co-author as research assistant in data analysis and web developing. </List.Item>
+
             </List>
 
 
