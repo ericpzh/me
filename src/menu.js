@@ -3,10 +3,14 @@ import './App.css';
 import { elastic as Menu } from 'react-burger-menu';
 import { Header, Icon } from 'semantic-ui-react';
 
-function Menu_() {
+function Menu_({lang, toggleLang}) {
   return (
     <div>
     <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
+      <a className='menu-item' onClick={() => toggleLang(!lang)}>
+        <span> <Icon name='language' /> </span>
+        <span> 汉语 / English </span>
+      </a>
       <a className='menu-item' href="/me">
         <span> <Icon name='home' /> </span>
         <span> Home </span>
