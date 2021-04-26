@@ -59,7 +59,7 @@ function App() {
 
                   </List.Item>
 
-                  <List.Item as='li'>  <a href="http://esol.ise.illinois.edu/publications.html"> Lifecycle environmental and economic performance of autonomous lawn mowers in comparison with human-operated systems </a> </List.Item>
+                  <List.Item as='li'>  <a href="https://www.tandfonline.com/doi/full/10.1080/19397038.2021.1919785"> Comparative life cycle assessment and costing of an autonomous lawn mowing system with human-operated alternatives: implication for sustainable design improvements </a> </List.Item>
                   <List.Item value='-'> 二作，研究助理。 </List.Item>
 
                   <List.Item as='li'>  <a href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2020/83952/V006T06A030/1089947"> Switching From Petroleum- to Bio-Based Plastics: Visualization Tools to Screen Sustainable Material Alternatives During the Design Process </a> </List.Item>
@@ -228,7 +228,7 @@ function App() {
 
                   </List.Item>
 
-                  <List.Item as='li'>  <a href="http://esol.ise.illinois.edu/publications.html"> Lifecycle environmental and economic performance of autonomous lawn mowers in comparison with human-operated systems </a> </List.Item>
+                  <List.Item as='li'>  <a href="https://www.tandfonline.com/doi/full/10.1080/19397038.2021.1919785"> Comparative life cycle assessment and costing of an autonomous lawn mowing system with human-operated alternatives: implication for sustainable design improvements </a> </List.Item>
                   <List.Item value='-'> Co-author as research assistant in conducting part of the case study. </List.Item>
 
                   <List.Item as='li'>  <a href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2020/83952/V006T06A030/1089947"> Switching From Petroleum- to Bio-Based Plastics: Visualization Tools to Screen Sustainable Material Alternatives During the Design Process </a> </List.Item>
