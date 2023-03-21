@@ -21,7 +21,7 @@ function Menu_({lang, toggleLang}) {
         <span> <Icon name='github' /> </span>
         <span> Github </span>
       </a>
-      <a className='menu-item' href='mailto: zp3@illinois.edu'>
+      <a className='menu-item' href='mailto: ericpzhpuma@gmail.com'>
         <span> <Icon name='mail' /> </span>
         <span> Email </span>
       </a>
