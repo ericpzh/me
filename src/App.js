@@ -63,7 +63,7 @@ function App() {
                     Led development of <a href="https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-redshift-row-level-security-enhancements/">OR Conjunction Row-Level Security</a>, enabling multiple RLS policies with OR logic.
                   </List.Item>
                   <List.Item as="li">
-                    Contributed to enhancements including <a href="https://docs.aws.amazon.com/redshift/latest/dg/r_enable_case_sensitive_super_attribute.html">case-sensitive parsing</a>, syntax error messages, IN list casting, and system table query optimizations (median response reduced from 228ms to 3ms).
+                    Contributed to multiple Parser-Analyzer enhancements, including <a href="https://docs.aws.amazon.com/redshift/latest/dg/r_enable_case_sensitive_super_attribute.html"> case-sensitive parsing support </a>, improved syntax error messages, IN list casting optimization, flattening of long qualification lists, and qualification pushdown for system table queries (achieving median response reduced from 228ms to 3ms).
                   </List.Item>
                   <List.Item as="li">
                     Delivered a proof of concept using machine learning to recommend Spark SQL configurations, achieving 15–50% performance improvement over Spark EMR defaults on benchmark workloads. The model uses a CNN-based regressor that takes Spark SQL’s logical plan, table statistics, and configuration parameters as input to predict query runtime. A subsequent optimization module applies gradient descent to recommend improved configuration settings.
