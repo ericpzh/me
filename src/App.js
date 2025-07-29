@@ -66,10 +66,10 @@ function App() {
                     Contributed to enhancements including <a href="https://docs.aws.amazon.com/redshift/latest/dg/r_enable_case_sensitive_super_attribute.html">case-sensitive parsing</a>, syntax error messages, IN list casting, and system table query optimizations (median response reduced from 228ms to 3ms).
                   </List.Item>
                   <List.Item as="li">
-                    Participated in Service Log Redactor and Pre-compiled Executor projects.
+                    Delivered a proof of concept using machine learning to recommend Spark SQL configurations, achieving 15–50% performance improvement over Spark EMR defaults on benchmark workloads. The model uses a CNN-based regressor that takes Spark SQL’s logical plan, table statistics, and configuration parameters as input to predict query runtime. A subsequent optimization module applies gradient descent to recommend improved configuration settings.
                   </List.Item>
                   <List.Item as="li">
-                    Built ML-based proof-of-concept for Spark SQL config recommendations, improving Spark EMR query performance.
+                    Participated in the Service Log Redactor and Pre-compiled Executor projects, addressing key operational challenges.
                   </List.Item>
                 </List>
 
