@@ -107,7 +107,7 @@ function App() {
                     },
                     {
                       id: "s3tables",
-                      title: <>Designed and implemented Redshift's integration with <a href="https://aws.amazon.com/blogs/aws/amazon-s3-tables-integration-with-amazon-sagemaker-lakehouse-is-now-generally-available/">S3 Table Bucket</a>. Launched GA on PI Day 2025; averaged <b>1K+</b> daily queries across <b>30+</b> clusters and <b>20+</b> customers within 3 months.</>,
+                      title: <>Designed and implemented Redshift's integration with <a href="https://aws.amazon.com/blogs/aws/amazon-s3-tables-integration-with-amazon-sagemaker-lakehouse-is-now-generally-available/">S3 Table Bucket</a>. Launched GA on PI Day 2025; averaged <b>6K+</b> daily queries.</>,
                       details: <>
                       <List.Item as="li"> • Coordinated query integration across <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-integrating-redshift.html"> S3 Table Buckets </a>, AWS Lake Formation, and Amazon Redshift. </List.Item>
                       <List.Item as="li"> • Extended RedLake (Redshift’s cross-cluster data sharing via the Lake Formation catalog) auto-mounter to mount S3 tables from the Lake Formation catalog, ensuring Redshift's native databases are created and deleted in sync with the Lake Formation catalog. </List.Item>
@@ -117,7 +117,7 @@ function App() {
                     },
                     {
                       id: "lagoon",
-                      title: <>Led Redshift's integration with <a href="https://aws.amazon.com/about-aws/whats-new/2023/11/aws-glue-data-catalog-multi-engine-views-analytics-engines/">Glue Data Catalog Views</a>. Previewed at re:Invent 2023; GA in 2024. As of July 2025: <b>300K+</b> daily queries across <b>1K+</b> clusters.</>,
+                      title: <>Led Redshift's integration with <a href="https://aws.amazon.com/about-aws/whats-new/2023/11/aws-glue-data-catalog-multi-engine-views-analytics-engines/">Glue Data Catalog Views</a>. Previewed at re:Invent 2023; GA in 2024. As of July 2025: <b>500K+</b> daily queries across <b>1K+</b> clusters.</>,
                       details: <>
                       <List.Item as="li"> • Developed <a href="https://docs.aws.amazon.com/redshift/latest/dg/data-catalog-views-overview.html"> Glue Data Catalog Views </a> multi-dialect view (supported in AWS Redshift, AWS Athena, and AWS EMR Spark) managed by AWS Lake Formation catalog, featuring Protected access via RLS-secured scanning borders and Definer-based permissions, where only the creator can access the view definition, based on their permissions on the underlying relation. </List.Item>
                       <List.Item as="li"> • Enabled CREATE, ALTER, and DROP SQL support mapped to Glue’s APIs (CreateTable, UpdateTable, DeleteTable), and SHOW VIEW SQL support mapped to Glue’s GetTables API. </List.Item>
